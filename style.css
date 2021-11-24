@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    background-color: skyblue;
+}
+h1{
+    font-size: 29px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-stretch: normal;
+    background-color: rgb(220, 239, 255);
+}
+.line{
+    height: 6px;
+    background-color: aqua;
+    width: 100px;
+    margin: 8px auto;
+}
+#apps{
+    width: 100%;
+    height: 900px;
+    background-color: cyan;
+}
+#games{
+    width: 100%;
+    height: 600px;
+    background-color: aliceblue;
+
+}
+#chatbot{
+    width: 100%;
+    height: 600px;
+    background-color: royalblue;
+}
+img{
+    transition: transform .2s;
+}
+img:hover{
+    transform: scale(0.9);
+}
